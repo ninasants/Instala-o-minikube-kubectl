@@ -63,11 +63,8 @@ Alternativamente, o minikube pode baixar a versão apropriada do kubectl e você
 minikube kubectl -- get po -A
 ```
 
-
-
-
-
 Inicialmente, alguns serviços, como o storage-provisioner, podem ainda não estar em um estado Running. Esta é uma condição normal durante a ativação do cluster e se resolverá momentaneamente. Para obter insights adicionais sobre o estado do seu cluster, o minikube agrupa o Kubernetes Dashboard, permitindo que você se aclimate facilmente ao seu novo ambiente:
 
-
+```
 minikube dashboard
+```
